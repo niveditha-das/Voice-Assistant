@@ -4,6 +4,17 @@ A voice assistant that runs **entirely in your browser**. Speech recognition, th
 search over your notes all run on your own device. There is no AI server, no account and no API key, and once
 the models have loaded you can switch off the Wi-Fi and it keeps working.
 
+![Start page: the particle globe forms while the models download](screenshots/01-start-page.webp)
+
+## Screenshots
+
+| | |
+| --- | --- |
+| ![Chat mode with the particle globe](screenshots/02-chat-globe.webp) | ![Learn mode with the particle brain and the notes uploader](screenshots/03-learn-brain.webp) |
+| **Chat**: click anywhere to change the shape (globe, light bulb, cube, hexagon) | **Learn**: upload your own notes and ask about them |
+| ![Quiz mode with the particle question mark](screenshots/04-quiz-question-mark.webp) | ![A conversation, with the particles spread out behind it](screenshots/05-conversation.webp) |
+| **Quiz**: questions from your notes, marked by meaning | **Conversation**: the shape bursts into a slow field behind the chat |
+
 ## What it does
 
 - **Chat**: talk or type; it answers out loud. Speak in English, or switch to Whisper base to speak almost any language.
@@ -37,6 +48,7 @@ Then open <http://localhost:8765> in Chrome, press **Load models** and wait for 
 - `world.js` is the whole app.
 - `styles/` holds earlier design versions: open `http://localhost:8765/?style=obsidian`, for example, or see them all in `gallery.html`.
 - `test/` has sample notes and audio clips for trying uploads and speech.
+- `screenshots/` has the pictures used in this README.
 
 ## Credits
 
