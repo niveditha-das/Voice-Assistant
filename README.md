@@ -4,16 +4,16 @@ A voice assistant that runs **entirely in your browser**. Speech recognition, th
 search over your notes all run on your own device. There is no AI server, no account and no API key, and once
 the models have loaded you can switch off the Wi-Fi and it keeps working.
 
-![Start page: the particle globe forms while the models download](screenshots/01-start-page.webp)
+![Start page](screenshots/01-start-page.webp)
 
 ## Screenshots
 
 | | |
 | --- | --- |
-| ![Chat mode with the particle globe](screenshots/02-chat-globe.webp) | ![Learn mode with the particle brain and the notes uploader](screenshots/03-learn-brain.webp) |
-| **Chat**: click anywhere to change the shape (globe, light bulb, cube, hexagon) | **Learn**: upload your own notes and ask about them |
-| ![Quiz mode with the particle question mark](screenshots/04-quiz-question-mark.webp) | ![A conversation, with the particles spread out behind it](screenshots/05-conversation.webp) |
-| **Quiz**: questions from your notes, marked by meaning | **Conversation**: the shape bursts into a slow field behind the chat |
+| ![Chat](screenshots/02-chat-globe.webp) | ![Learn](screenshots/03-learn-brain.webp) |
+| **Chat** | **Learn** |
+| ![Quiz](screenshots/04-quiz-question-mark.webp) | ![Conversation](screenshots/05-conversation.webp) |
+| **Quiz** | **Conversation** |
 
 ## What it does
 
@@ -21,7 +21,6 @@ the models have loaded you can switch off the Wi-Fi and it keeps working.
 - **Learn**: upload your own PDFs or text notes and ask questions about them. Answers come only from your notes and show the page they used.
 - **Quiz**: it writes questions from your notes and marks your answers by meaning, not exact words.
 - **Focus mode** keeps the background almost still; light and dark themes.
-- A particle animation reacts to what the assistant is doing and spreads out behind the conversation.
 
 ## How it works
 
