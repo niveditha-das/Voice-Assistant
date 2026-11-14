@@ -1,0 +1,9 @@
+# screen recordings and other large media
+*.mov
+*.mp4
+# local editor / tool settings
+.claude/
+.DS_Store
+
+# personal working notes (not published)
+NOTES.md

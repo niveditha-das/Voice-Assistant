@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Offline Voice Assistant - local test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <!-- Local test page. On Ancient Brain, only ONE world file is pasted into the World editor.
+       http://localhost:8765/                   -> world.js (the version being worked on)
+       http://localhost:8765/?style=editorial   -> styles/world-editorial.js (saved version)
+       http://localhost:8765/?style=neon-glass  -> styles/world-neon-glass.js, etc. -->
+  <script>
+    const style = new URLSearchParams(location.search).get("style");
+    const file = style ? "styles/world-" + style.replace(/[^a-z0-9-]/gi, "") + ".js" : "world.js";
+    const sc = document.createElement("script");
+    sc.src = file + "?t=" + Date.now();   // cache-busting so edits always show up
+    document.body.appendChild(sc);
+  </script>
+</body>
+</html>
