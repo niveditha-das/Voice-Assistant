@@ -45,7 +45,6 @@
 //    Font: Space Grotesk by Florian Karsten, via Google Fonts https://fonts.google.com/specimen/Space+Grotesk
 //    Obsidian-sphere shader: raymarched signed distance field, technique by Inigo Quilez
 //      https://iquilezles.org/articles/distfunctions/
-//  - Developed with help from Claude (Anthropic AI assistant) https://claude.ai
 //
 //  DESIGN NOTES
 //  - We deliberately do NOT use the browser's SpeechRecognition API, because in Chrome it

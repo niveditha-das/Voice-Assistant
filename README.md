@@ -42,4 +42,4 @@ Then open <http://localhost:8765> in Chrome, press **Load models** and wait for 
 
 All libraries, models, fonts and design references are credited with links at the top of [`world.js`](world.js).
 
-Built by Niveditha Das, with help from Claude (Anthropic).
+Built by Niveditha Das.

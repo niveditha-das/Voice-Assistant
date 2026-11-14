@@ -36,7 +36,6 @@
 //      https://styles.refero.design/style/3e52dd36-6ab1-48c6-bc40-47ef6d33abc2
 //    Font: Inter by Rasmus Andersson, via Google Fonts https://fonts.google.com/specimen/Inter
 //    Liquid hero shader: fbm + domain warping technique by Inigo Quilez https://iquilezles.org/articles/warp/
-//  - Developed with help from Claude (Anthropic AI assistant) https://claude.ai
 //
 //  DESIGN NOTES
 //  - We deliberately do NOT use the browser's SpeechRecognition API, because in Chrome it

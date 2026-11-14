@@ -53,7 +53,6 @@
 //    the hexagon and question mark are my own additions.
 //    Hexagon tumble: Rodrigues' rotation formula https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula
 //    the geometry and motion are written from scratch, nothing copied from the original site.
-//  - Developed with help from Claude (Anthropic AI assistant) https://claude.ai
 //
 //  DESIGN NOTES
 //  - We deliberately do NOT use the browser's SpeechRecognition API, because in Chrome it

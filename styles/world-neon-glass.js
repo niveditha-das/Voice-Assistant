@@ -32,7 +32,6 @@
 //                    Web Workers   https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API
 //  - Ancient Brain: https://ancientbrain.com  ("Recognise any image" World used as starting point:
 //                   https://ancientbrain.com/world.php?world=6692470813)
-//  - Developed with help from Claude (Anthropic AI assistant) https://claude.ai
 //
 //  DESIGN NOTES
 //  - We deliberately do NOT use the browser's SpeechRecognition API, because in Chrome it
